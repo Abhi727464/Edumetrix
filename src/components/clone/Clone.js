@@ -48,7 +48,7 @@ const Clone = () => {
           </Card>
         </div>
         <div className={styles.rightSection}>
-          <Card body style={{ backgroundColor: "#FAE8E0", width: "57.5rem" }}>
+          <Card body>
             <div className={styles.cloneImages}>
               <div className={styles.cloneImage1}>
                 <img src={clone1} alt="clone1" />

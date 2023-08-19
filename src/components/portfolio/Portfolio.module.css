@@ -1,6 +1,5 @@
 .portfolioContainer {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   background: rgb(255, 126, 9);
   background: linear-gradient(
     151deg,
@@ -14,6 +13,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 .portfolioText {
   width: 50%;
@@ -45,6 +45,7 @@
   margin: -60px auto 0px auto;
   z-index: 2;
   border-radius: 20px;
+  bottom: 50px;
 }
 .tagLineContainer {
   display: flex;
@@ -74,16 +75,53 @@
   background: #ffcf3e;
 }
 
-.rightSection{
-    display: flex;
+.rightSection {
+  display: flex;
 }
-.aboutSection span{
-    font-size: 25px;
+.aboutSection span {
+  font-size: 25px;
 }
-.icon{
-    font-size: 25px;
-    position: relative;
-    right: 10px;
-    bottom: 2px;
-    color: red;
+.icon {
+  font-size: 25px;
+  position: relative;
+  right: 10px;
+  bottom: 2px;
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  .portfolioSection {
+    flex-direction: column;
+  }
+  .portfolioText {
+    width: 100%;
+  }
+  .portfolioText h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .portfolioText p {
+    text-align: center;
+  }
+  .bannerImage {
+    width: 100%;
+  }
+  .bannerImage img {
+    width: 300px;
+  }
+  .tagLineContainer {
+    height: 70px;
+  }
+  .logo img {
+    width: 50px;
+  }
+  .logo span {
+    font-size: 14px;
+  }
+  .aboutSection span {
+    font-size: 15px;
+  }
+  .icon {
+    font-size: 15px;
+    right: 5px;
+  }
 }

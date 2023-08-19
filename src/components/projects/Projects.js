@@ -40,17 +40,15 @@ const Projects = () => {
               body
               style={{
                 backgroundColor: "#FF0080",
-                width:"100%",
+                width: "100%",
                 height: "100%",
                 borderRadius: "0px",
-                display:"flex",
-                alignItems:"center",
-                justifyContent:"center",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
               }}
             >
-              <Card.Title style={{ fontSize: "6rem", color: "white",marginTop:"50px" }}>
-                Projects
-              </Card.Title>
+              <h1 style={{ color: "white", marginTop: "50px" }}>Projects</h1>
               <h4 style={{ color: "white" }}>You name IT we make IT</h4>
               <div className={styles.projectHead}>
                 <div>

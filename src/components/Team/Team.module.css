@@ -1,6 +1,5 @@
 .teamContainer {
   width: 100vw;
-  /* height: 100vh; */
   background: #fb7b04;
 }
 .teamSection {
@@ -89,4 +88,32 @@
   z-index: 1;
   height: 700px;
   /* width: 200px; */
+}
+@media only screen and (max-width: 600px) {
+  .teamSection h1 {
+    font-size: 3rem;
+  }
+  .teamSection p {
+    font-size: 1rem;
+  }
+  .teamBanner img {
+    display: none;
+  }
+  .teamBox1 {
+    /* width: 90%; */
+    flex-direction: column;
+    margin: 0px auto;
+    justify-content: center;
+  }
+  .teamBox2 {
+    flex-direction: column;
+  }
+  .teamMate {
+    width: 300px;
+  }
+  .teamMates {
+    flex-direction: column;
+    /* width: 100%; */
+    margin-right: 50px;
+  }
 }

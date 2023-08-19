@@ -1,6 +1,6 @@
 .aboutContainer {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .aboutSection {
@@ -58,4 +58,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .about {
+    display: none;
+  }
+  .aboutLeft {
+    width: 100%;
+    margin: 20px;
+  }
+  .aboutLeft h1 {
+    font-size: 2.5rem;
+    width: 400px;
+  }
+  .aboutLeft p {
+    font-size: 15px;
+    width: 350px;
+    /* text-align: center; */
+  }
+  .aboutText {
+    display: none;
+  }
 }

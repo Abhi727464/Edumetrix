@@ -1,6 +1,6 @@
 .cloneContainer {
   background: #f8eee2;
-  height: 110vh;
+  /* height: 110vh; */
   width: 100vw;
 }
 
@@ -73,4 +73,32 @@
   font-weight: bold;
   margin-top: 20px;
   color: black;
+}
+@media only screen and (max-width: 600px) {
+  .cloneSection {
+    flex-direction: column;
+  }
+  .leftSection {
+    width: 100%;
+  }
+  .rightSection {
+    flex-direction: column;
+  }
+  .cloneImages {
+    flex-direction: column;
+  }
+  .cloneImage1 img {
+    width: 300px;
+    height: auto;
+  }
+  .cloneImage2 img {
+    width: 300px;
+    height: auto;
+  }
+  .card,
+  .grayCard {
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+  }
 }
